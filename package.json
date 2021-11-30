@@ -1,0 +1,39 @@
+{
+  "name": "rl_architect_be",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon bin/http",
+    "dev": "nodemon bin/http"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/basiliuswicaksono/RL_Architect_BE.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/basiliuswicaksono/RL_Architect_BE/issues"
+  },
+  "homepage": "https://github.com/basiliuswicaksono/RL_Architect_BE#readme",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "express-form-data": "^2.0.14",
+    "express-validator": "^6.13.0",
+    "jsonwebtoken": "^8.5.1",
+    "mariadb": "^2.5.5",
+    "sequelize": "^6.5.0"
+  },
+  "devDependencies": {
+    "eslint": "^7.19.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-plugin-import": "^2.22.1",
+    "sequelize-cli": "^6.2.0"
+  }
+}
